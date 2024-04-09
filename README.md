@@ -19,7 +19,7 @@ This data is a RNA-seq data set prepared separately from the HS data set. In thi
 
 #### Proteomics ####
 
-### Within HCT116 ###
+### Within HCT116: ###
 #### PRO-seq ####
 Contains the data associated with GSE261575.
 This data is PRO-seq data generated from HCT116 cells treated +/- SY-5609 CDK7 inhibitor for 30min, then was treated with IFNg for 45min.
