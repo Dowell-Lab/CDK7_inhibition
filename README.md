@@ -5,7 +5,7 @@ Within these folders there are sub folders divided by experiment type; PRO-seq, 
 Additional folders:
 - metadata: incredibly helpful metadata tables that layout what samples are what (metadata files), as well as which comparisons were made in this study (interaction tables).
 - scripts: general "scripts" folder that contains unpolished miscelanous scripts and notebooks related to this study.
-- summary: contains files where multiple data types were combined to make summary plots and analyses.
+- summary: contains files where multiple data types were combined to make summary plots and analyses, as well as gene target lists and other misc data used in this study.
 
 ### Within OV90: ###
 #### PRO-seq ####
