@@ -1,0 +1,12 @@
+treatment_45_vs_0_genotypeSY5609.treatment45	SY_0	SY_45
+treatment_20_vs_0	DMSO_0	DMSO_20
+treatment_45_vs_20	DMSO_20	DMSO_45
+genotype_SY5609.treatment20	SY_20	SY_20
+genotype_SY5609.treatment45	SY_45	SY_45
+genotype_SY5609_vs_DMSO_genotypeSY5609.treatment20	DMSO_20	SY_20
+genotype_SY5609_vs_DMSO_genotypeSY5609.treatment45	DMSO_45	SY_45
+treatment_45_vs_20_genotypeSY5609	SY_20	SY_45
+treatment_45_vs_0	DMSO_0	DMSO_45
+genotype_SY5609_vs_DMSO	DMSO_0	SY_0
+treatment_20_vs_0_genotypeSY5609.treatment20	SY_0	SY_20
+SY5609_45_vs_DMSO_0	DMSO_0	SY_45
