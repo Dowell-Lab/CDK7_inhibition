@@ -53,6 +53,7 @@ PRO-seq specific programs:
 Associated files: tfea_res; contains the HOCOMOCO TF name,  multiple comparisons and their associated number of motif events, corrected enrichment scores and corrected adjusted p-values. The correction is the correction for GC bias in TF motifs.
 
 - TF Profiler: https://github.com/Dowell-Lab/TF_profiler
-Associated files: tf_profile; contains the HOCOMOCO TF name, the associated gene and the calculated and simulated MD-scores as well as the associated p-value.
+Associated files: tf_profile; contains the HOCOMOCO TF name, the number of hits used to calculate the MD-score (small hits/large hits; hits within 300bp/hits within 3000bp of mu) for both experimental data and the statistical model, the MD-score for both experimental data and the statistical model and the associated significance values.
+
 
 
