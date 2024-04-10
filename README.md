@@ -15,14 +15,14 @@ This data is PRO-seq data generated from OV90 cells treated +/- 50nM SY-5609 (CD
 #### RNA-seq ####
 There are two subsets of data within this folder:
 1) HS dataset contains the data associated with GSE228346.
-This data is RNA-seq data generated from OV90 cells treated +/- SY-5609 for 30min, then was heat shocked at 42C for 0min, 30min or 120min. The 30min dataset has a 30min recovery before the mRNA was harvestd via polyA selection.
+This data is RNA-seq data generated from OV90 cells treated +/- SY-5609 for 30min, then was heat shocked at 42C for 0min, 30min or 120min. The 30min dataset has a 60min recovery before the mRNA was harvestd via polyA selection.
 
 2) Long exposure SY-5609 contains the data associated with GSE262536.
 This data is a RNA-seq data set prepared separately from the HS data set. In this experimental design OV90 cells were treated with 0nM, 40nM or 400nM SY-5609 for 4hr before mRNA harvest.
 
 #### Proteomics ####
 This data was generated from OV90 cells treated +/- SY-5609 for 30min or 120min, then the peptides were isolated for MS analysis.
-The associated file is prot_res, it contains the log2FC values and p-values associated with 0min vs 30min and 0min vs 120min.
+The associated file is prot_res, it contains the log2FC values and p-values associated with DMSO vs 30min SY-5609 and DMSO vs 120min SY-5609.
 
 ### Within HCT116: ###
 #### PRO-seq ####
@@ -32,7 +32,7 @@ There is also data +/- Palbociclib (a CDK4/6 inhibitor) with a 30min treatment.
 
 #### Proteomics ####
 This data was generated from HCT116 cells treated +/- SY-5609 for 30min or 120min, then the peptides were isolated for MS analysis.
-The associated file is prot_res, it contains the log2FC values and p-values associated with 0min vs 30min and 0min vs 120min.
+The associated file is prot_res, it contains the log2FC values and p-values associated with DMSO vs 30min SY-5609 and DMSO vs 120min SY-5609.
 
 ![gitTREATMENTscheme](https://github.com/Dowell-Lab/CDK7_inhibition/assets/48491008/b2f2ba94-8fc8-4a1c-9e66-852c1c99e971)
 
