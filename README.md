@@ -13,7 +13,7 @@ Contains the data associated with GSE228346.
 This data is PRO-seq data generated from OV90 cells treated +/- 50nM SY-5609 (CDK7 inhibitor) for 30min, then was heat shocked at 42C for 0min, 20min or 45min.
 
 #### RNA-seq ####
-There are two subfolders within this folder:
+There are two subsets of data within this folder:
 1) HS dataset contains the data associated with GSE228346.
 This data is RNA-seq data generated from OV90 cells treated +/- SY-5609 for 30min, then was heat shocked at 42C for 0min, 30min or 120min. The 30min dataset has a 30min recovery before the mRNA was harvestd via polyA selection.
 
