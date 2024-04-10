@@ -48,7 +48,7 @@ Associated files: tfea.chip; contains enrichment results from TFEA.ChIP, which c
 
 PRO-seq specific programs:
 - TFEA: https://github.com/Dowell-Lab/TFEA
-Associated files: tfea_res; contains the HOCOMOCO TF name, the associated gene, multiple comparisons and their associated corrected enrichment scores and corrected adjusted p-values. The correction is the correction for GC bias in TF motifs.
+Associated files: tfea_res; contains the HOCOMOCO TF name,  multiple comparisons and their associated number of motif events, corrected enrichment scores and corrected adjusted p-values. The correction is the correction for GC bias in TF motifs.
 
 - TF Profiler: https://github.com/Dowell-Lab/TF_profiler
 Associated files: tf_profile; contains the HOCOMOCO TF name, the associated gene and the calculated and simulated MD-scores as well as the associated p-value.
