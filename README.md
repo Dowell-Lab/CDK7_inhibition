@@ -1,6 +1,6 @@
 # How to navigate this repository: #
-There are two main folders- OV90 and HCT116. These correspond to the cell typee the experiment was performed in.
-Within these folders there are sub folders divided by experiment type; PRO-seq, RNA-seq or MS- proteomics. See the experimental design figure below for more details.
+There are two main folders- OV90 and HCT116. These correspond to the cell type the experiment was performed in.
+Within these folders there are sub folders divided by experiment type; PRO-seq, RNA-seq or MS-proteomics. See the experimental design figure below for more details.
 
 Additional folders:
 - metadata: incredibly helpful metadata tables that layout what samples are what (metadata files), as well as which comparisons were made in this study (interaction tables).
