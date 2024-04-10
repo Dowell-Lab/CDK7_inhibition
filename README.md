@@ -22,6 +22,7 @@ This data is a RNA-seq data set prepared separately from the HS data set. In thi
 
 #### Proteomics ####
 This data was generated from OV90 cells treated +/- SY-5609 for 30min or 120min, then the peptides were isolated for MS analysis.
+The associated file is prot_res, it contains the log2FC values and p-values associated with 0min vs 30min and 0min vs 120min.
 
 ### Within HCT116: ###
 #### PRO-seq ####
@@ -31,6 +32,7 @@ There is also data +/- Palbociclib (a CDK4/6 inhibitor) with a 30min treatment.
 
 #### Proteomics ####
 This data was generated from HCT116 cells treated +/- SY-5609 for 30min or 120min, then the peptides were isolated for MS analysis.
+The associated file is prot_res, it contains the log2FC values and p-values associated with 0min vs 30min and 0min vs 120min.
 
 ![gitTREATMENTscheme](https://github.com/Dowell-Lab/CDK7_inhibition/assets/48491008/0a98e2b4-3801-4b5b-9090-1a3ac0a8508c)
 
