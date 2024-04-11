@@ -63,5 +63,4 @@ Associated files: tfea_res; contains the HOCOMOCO TF name,  multiple comparisons
 
 Associated files: tf_profile; contains the HOCOMOCO TF name, the number of hits used to calculate the MD-score (small hits/large hits; hits within 300bp/hits within 3000bp of mu) for both experimental data and the statistical model, the MD-score for both experimental data and the statistical model and the associated significance values.
 
-
-
+In order to run TFEA and TF Profiler bidirectional calls are necessary. In order to annotate bidirectional regions we used Bidirectional-Flow to run tfit (v1.2;https://github.com/Dowell-Lab/Tfit; https://github.com/Dowell-Lab/Bidirectional-Flow) on each sample. To make a consensus set of bidirectionals we used mumerge (v1.1.0; https://github.com/Dowell-Lab/mumerge). This consensus sets (one per cell line) were used for all bidirectional analyses in this study and is uploaded to the OV90 and HCT116 PROseq folders.
