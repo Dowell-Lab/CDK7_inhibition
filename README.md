@@ -39,7 +39,6 @@ The raw data is also uploaded in the form of an excel file.
 ![gitTREATMENTscheme](https://github.com/Dowell-Lab/CDK7_inhibition/assets/48491008/b2f2ba94-8fc8-4a1c-9e66-852c1c99e971)
 
 # Main programs used: #
-General programs:
 - DEseq2 (v1.26.0, R v3.6; https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
  
 Counts were performed with Rsubread featurecounts (v2.0.1; https://www.rdocumentation.org/packages/Rsubread/versions/1.22.2/topics/featureCounts).
