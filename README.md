@@ -39,6 +39,7 @@ The raw data is also uploaded in the form of an excel file.
 ![gitTREATMENTscheme](https://github.com/Dowell-Lab/CDK7_inhibition/assets/48491008/b2f2ba94-8fc8-4a1c-9e66-852c1c99e971)
 
 # Main programs used: #
+**General programs:**
 - DEseq2 (v1.26.0, R v3.6; https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
  
 Counts were performed with Rsubread featurecounts (v2.0.1; https://www.rdocumentation.org/packages/Rsubread/versions/1.22.2/topics/featureCounts).
@@ -49,12 +50,12 @@ Associated files: deseq2_res; contains ROI, baseMean, sample counts (batch corre
 
 Associated files: gsea_res; contains the PATHWAY, GO-database type from C5 all (biological processes, reactome, etc), pathway size, multiple comparisons and their associated normalized enrichment scores (NES) and FDR q-values.
 
-RNA-seq specific programs:
+**RNA-seq specific programs:**
 - TFEA.ChIP (v1.6.0; https://www.bioconductor.org/packages/release/bioc/vignettes/TFEA.ChIP/inst/doc/TFEA.ChIP.html)
 
 Associated files: tfea.chip; contains enrichment results from TFEA.ChIP, which consist of enrichment scores (ES) and adjusted p-values.
 
-PRO-seq specific programs:
+**PRO-seq specific programs:**
 - TFEA (v1.1.4; https://github.com/Dowell-Lab/TFEA)
 
 Associated files: tfea_res; contains the HOCOMOCO TF name,  multiple comparisons and their associated number of motif events, corrected enrichment scores and corrected adjusted p-values. The correction is the correction for GC bias in TF motifs. Note that a conversion table for HOCOMOCO TF name and geneIDs is available in summary files.
