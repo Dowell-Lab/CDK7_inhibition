@@ -41,21 +41,27 @@ The raw data is also uploaded in the form of an excel file.
 # Main programs used: #
 General programs:
 - DEseq2 (v1.26.0, R v3.6; https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
-Associated files: deseq2_res; contains ROI, baseMean, sample counts (batch corrected and normalized), multiple comparisons and their associated log2FC and adjusted p-values.
-Counts were performed with Rsubread featurecounts (v2.0.1; https://www.rdocumentation.org/packages/Rsubread/versions/1.22.2/topics/featureCounts).
  
+Counts were performed with Rsubread featurecounts (v2.0.1; https://www.rdocumentation.org/packages/Rsubread/versions/1.22.2/topics/featureCounts).
+
+Associated files: deseq2_res; contains ROI, baseMean, sample counts (batch corrected and normalized), multiple comparisons and their associated log2FC and adjusted p-values.
+
 - GSEA (v4.3.2, c5.all.v7.5.symbols.gmt; https://www.gsea-msigdb.org/gsea/index.jsp)
+
 Associated files: gsea_res; contains the PATHWAY, GO-database type from C5 all (biological processes, reactome, etc), pathway size, multiple comparisons and their associated normalized enrichment scores (NES) and FDR q-values.
 
 RNA-seq specific programs:
 - TFEA.ChIP (v1.6.0; https://www.bioconductor.org/packages/release/bioc/vignettes/TFEA.ChIP/inst/doc/TFEA.ChIP.html)
+
 Associated files: tfea.chip; contains enrichment results from TFEA.ChIP, which consist of enrichment scores (ES) and adjusted p-values.
 
 PRO-seq specific programs:
 - TFEA (v1.1.4; https://github.com/Dowell-Lab/TFEA)
-Associated files: tfea_res; contains the HOCOMOCO TF name,  multiple comparisons and their associated number of motif events, corrected enrichment scores and corrected adjusted p-values. The correction is the correction for GC bias in TF motifs.
+
+Associated files: tfea_res; contains the HOCOMOCO TF name,  multiple comparisons and their associated number of motif events, corrected enrichment scores and corrected adjusted p-values. The correction is the correction for GC bias in TF motifs. Note that a conversion table for HOCOMOCO TF name and geneIDs is available in summary files.
 
 - TF Profiler (v1.0; https://github.com/Dowell-Lab/TF_profiler)
+
 Associated files: tf_profile; contains the HOCOMOCO TF name, the number of hits used to calculate the MD-score (small hits/large hits; hits within 300bp/hits within 3000bp of mu) for both experimental data and the statistical model, the MD-score for both experimental data and the statistical model and the associated significance values.
 
 
