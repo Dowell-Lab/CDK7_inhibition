@@ -1,6 +1,6 @@
 # How to navigate this repository: #
-There are two main folders- OV90 and HCT116. These correspond to the cell type the experiment was performed in.
-Within these folders there are sub folders divided by experiment type; PRO-seq, RNA-seq or MS-proteomics. See the experimental design figure below for more details.
+There are three main folders- OV90, HCT116, and HEK293. These correspond to the cell type the experiment was performed in.
+Within these folders there are sub folders divided by experiment type; PRO-seq, RNA-seq, ChIP-seq or MS-proteomics. See the experimental design figure below for more details.
 
 Additional folders:
 - metadata: incredibly helpful metadata tables that layout what samples are what (metadata files), as well as which comparisons were made in this study (interaction tables).
@@ -26,6 +26,10 @@ The associated file is prot_res, it contains the log2FC values and p-values asso
 The raw data is also uploaded in the form of an excel file.
 
 ### Within HCT116: ###
+#### ChIP-seq ####
+Contains the data associated with **GSE268531**.
+This data is ChIP-seq data generated from HCT116 cells treated +/- SY-5609 for 30min, then was treated with IFNg for 45min.
+
 #### PRO-seq ####
 Contains the data associated with **GSE261575**.
 This data is PRO-seq data generated from HCT116 cells treated +/- SY-5609 for 30min, then was treated with IFNg for 45min.
@@ -37,6 +41,11 @@ The associated file is prot_res, it contains the log2FC values and p-values asso
 The raw data is also uploaded in the form of an excel file.
 
 ![gitTREATMENTscheme](https://github.com/Dowell-Lab/CDK7_inhibition/assets/48491008/b2f2ba94-8fc8-4a1c-9e66-852c1c99e971)
+
+### Within HEK293: ###
+#### MNase-ChIP-seq ####
+Contains the data associated with **GSE218269**.
+This data is MNase-ChIP-seq data generated from CDK7as cells treated +/- 1-NM-PP1 for 30min.
 
 # Main programs used: #
 **General programs:**
